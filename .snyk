@@ -1,0 +1,100 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - cypress > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@babel/core > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - eslint > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - eslint-plugin-import > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - semantic-release > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - enzyme > cheerio > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > webpack-merge > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - next > @babel/core > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > react-docgen > @babel/core > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - cypress > getos > async > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > react-dev-utils > inquirer > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > react-docgen > async > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-plugin-import > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - next > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@babel/preset-react > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx > @babel/types > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > react-docgen > @babel/core > @babel/generator > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - next > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - react-styleguidist > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T07:54:57.890Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T07:54:57.890Z'
